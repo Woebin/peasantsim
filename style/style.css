@@ -1,0 +1,58 @@
+h1 {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+body {
+    /*background-image: url("img/background.png");*/
+    background-color: "grey";
+}
+
+#container {
+    /*height: 576;
+    width: 1024;*/
+    margin: 10px auto;
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9DD2EA;
+}
+
+#gameArea {
+    background-image: url("img/gameBg.png");
+    width: 1280px;
+    height: 720px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#startButton {
+    width: 78px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#eventImg {
+    display: block;
+    margin: auto;
+}
+
+.info {
+    display: block;
+    margin: auto;
+}
